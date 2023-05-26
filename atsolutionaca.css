@@ -18,10 +18,11 @@ body{
     padding:30px;
 }
 .at{
-    width:clamp(2px, 10cqi, 80px);
+    /* width:clamp(2px, 10cqi, 80px); */
     /* box-shadow:4px 4px 8px black; */
     margin-left:clamp(0px, 10cqi, 1000px);
     transition:all .4s linear;
+    width:6vw;
     
 }
 .at:hover{
@@ -69,7 +70,8 @@ h5{
 .btn{
     justify-content:center;
     text-align:center;
-    padding-top:clamp(150px, 20cqi, 150px);
+    /* padding-top:clamp(150px, 20cqi, 150px); */
+    padding-top:20vh;
 }
 .dot{
     color:orange;
@@ -202,7 +204,7 @@ h5{
 }
 .function{
     /* height:100vh; */
-    background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)),url(./images/im14.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.78), rgba(0,0,0,0.78)),url(./images/im14.jpg) center/cover no-repeat;
     width:100vw;
     background-attachment: fixed;
     display:flex;
@@ -356,7 +358,7 @@ form button:hover{
     background-color:black;
     color:grey;
     text-align: center;
-    font-size:.8em;
+    font-size:.6em;
     padding:2px;
     width: 100%;
     position: absolute;
@@ -666,6 +668,12 @@ form button:hover{
     }
     .copy{
         margin-top:100vh;
+    }
+    .at{
+        width:15vw;
+    }
+    .lorem{
+        margin-top:10vh;
     }
     
 

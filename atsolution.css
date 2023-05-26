@@ -22,13 +22,16 @@ body{
     /* box-shadow:4px 4px 8px black; */
     margin-left:clamp(0px, 10cqi, 1000px);
     transition:all .4s linear;
-    height:130px;
+    width:6vw;
     
 }
 .at:hover{
     transform:scale(1.1);
     transition:all .4s linear;
     cursor:pointer;
+}
+.lorem{
+    /* margin-top:5vh; */
 }
 .orange{
     color:orange;
@@ -75,7 +78,9 @@ h5{
 .btn{
     justify-content:center;
     text-align:center;
-    padding-top:clamp(150px, 20cqi, 150px);
+    /* padding-top:clamp(150px, 20cqi, 150px); */
+    padding-top:20vh;
+    
 }
 .dot{
     color:orange;
@@ -136,8 +141,6 @@ h5{
     transition:all .3s linear;
     font-size:1.5em;
     text-transform:capitalize;
-    
-
 }
 
 .art2 a{
@@ -147,7 +150,6 @@ h5{
 }
 .activ{
     animation: art2 1s linear;
-    /* background-color:orange; */
 }
 .art2 .one:hover{
     background-color: orange;
@@ -209,15 +211,17 @@ h5{
     padding:120px 50px 120px 50px;
     background-color: rgb(231, 231, 231);
     color:grey;
-    font-size: 4em;
+    font-size: clamp(2em, 7cqi, 4em);
     text-transform: uppercase;
-    /* margin:20px; */
-    font-weight:lighter
-    /* box-shadow:2px 2px 30px black; */
+    font-weight:lighter;
 }
 .art4 p{
     padding:60px;
     color:gray;
+    
+}
+.art4 .p2{
+    line-height:1.8em;
 }
 
 .art5 .btn1{
@@ -242,6 +246,7 @@ h5{
     background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url(./images/build4.jpg) center/cover no-repeat;
     background-attachment:fixed;
     
+    
 }
 .art6 .reas1{
     font-size:2em;
@@ -258,6 +263,8 @@ h5{
     align-items: center;
     background-color: rgba(211, 211, 211, 0.3);
     transition:all .3s linear;
+    line-height:1.75em;
+    /* color:white; */
 }
 .art6 .ans1:hover{
     /* filter:brightness(.2); */
@@ -270,6 +277,8 @@ h5{
     /* flex-wrap:wrap; */
     gap:2em;
     margin:2em;
+    /* align-items: center; */
+    justify-content: center;
 }
 .art7{
     min-height:100vh;
@@ -368,7 +377,7 @@ form button:hover{
     background-color:black;
     color:grey;
     text-align: center;
-    font-size:.8em;
+    font-size:.6em;
     padding:2px;
     width: 100%;
     position: absolute;
@@ -678,6 +687,12 @@ form button:hover{
     }
     .copy{
         margin-top:100vh;
+    }
+    .at{
+        width:15vw;
+    }
+    .lorem{
+        margin-top:10vh;
     }
     
 
